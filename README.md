@@ -1,1 +1,1 @@
-# practices
+# Practices for PHP
