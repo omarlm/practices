@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-07 21:40:08
+/* Smarty version 3.1.30, created on 2017-11-09 21:48:11
   from "C:\xampp\htdocs\practicas\practica05\web\smarty\tarea\templates\login.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a021a28893c80_91445877',
+  'unifunc' => 'content_5a04bf0b194719_43732016',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a3bdc76c71bb9c3f4c61819d421c185515c61201' => 
     array (
       0 => 'C:\\xampp\\htdocs\\practicas\\practica05\\web\\smarty\\tarea\\templates\\login.tpl',
-      1 => 1510087204,
+      1 => 1510260489,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a021a28893c80_91445877 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a04bf0b194719_43732016 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!-- Desarrollo Web en Entorno Servidor -->

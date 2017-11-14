@@ -5,17 +5,18 @@ require_once('include/DB.php');
 require_once('web/smarty/tarea/configs/libs/Smarty.class.php');
 $smarty = new Smarty(0);
 
-//$smarty->template_dir = '/web/smarty/tarea/templates/';
-//$smarty->compile_dir = '/web/smarty/tarea/cache/';
-//$smarty->config_dir = '/web/smarty/tarea/configs/'; 
-//$smarty->cache_dir = '/web/smarty/tarea/cache/'; 
-$error = "mierda";
+$smarty->template_dir = 'web/smarty/tarea/templates/';
+$smarty->compile_dir = 'web/smarty/tarea/cache/';
+$smarty->config_dir = 'web/smarty/tarea/configs/'; 
+$smarty->cache_dir = 'web/smarty/tarea/cache/'; 
+//$message = 'Debes introducir un nombre de usuario y una contraseña';
+$smarty->assign('error', '');
 
 // Comprobamos si ya se ha enviado el formulario
 if (isset($_POST['enviar'])) {
 
     if (empty($_POST['usuario']) || empty($_POST['password'])) 
-        $smarty->assign('error','Debes introducir un nombre de usuario y una contraseña');
+        $smarty->assign('error', 'Debes introducir un nombre de usuario y una contraseña');
     else {
         // Comprobamos las credenciales con la base de datos
         if (DB::verificaCliente($_POST['usuario'], $_POST['password'])) {
