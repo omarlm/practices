@@ -1,0 +1,269 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400);
+@import url(http://fonts.googleapis.com/css?family=Lobster:200,300,400);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img{
+    width: 120px;
+    height: 100px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 5%;
+}
+body{
+    /*background: url(bg.jpg);*/
+    background-color:  #F9F9F9;
+    width: 100%;
+	height:100%;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+a {
+	text-decoration: none;
+}
+ol{
+    width: 90%;
+    margin: 0 auto;
+   /* border: 1px solid blue;*/
+}
+li{
+	float: left;
+    height: 70px;
+    white-space: nowrap;
+	margin: 0 auto;
+    
+}
+
+.beach{
+    /*border: 1px solid black;*/
+    margin: 20px;
+    width: 29%;
+    height: 25%;
+    background-color: #F9F9F9;
+    /*SOMBRA DE LA CAJA*/
+    -webkit-box-shadow: 10px 10px 16px 0px rgba(223,223,223,1);
+    -moz-box-shadow: 10px 10px 16px 0px rgba(223,223,223,1);
+    box-shadow: 10px 10px 16px 0px rgba(223,223,223,1);
+    /*BORDE REDONDEADO DE LA CAJA*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+h2{
+	text-align:center;
+    color: white;
+    background-color: #79DCF2; /*#EE4D4D;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'Dosis', sans-serif;
+    /*BORDE PARA EL HEAD DE LA CAJA*/
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.header{
+	color:white;
+	background-color: #79DCF2;
+	width:100%;
+	height:50px;
+	margin-bottom:2%;
+}
+p, a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        /*font-family: 'Oswald', sans-serif;*/
+		font-family: 'Roboto', sans-serif;
+        text-align:left; 
+        text-overflow: clip;
+		color: black;
+}
+.titulo{
+	/*border:1px solid black;*/
+	width:50%;
+	text-align:center;
+	margin:0 auto;
+}
+.linkshead{
+float:right;
+}
+.titulo p{
+font-family: 'Lobster', cursive;
+font-size:20px;
+}
+.btn {
+    margin: 10px;
+    display: block;
+    width: 60px;
+    height: 20px;
+    background-color: #79DCF2; /*#EE4D4D;*/
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.resmun{
+	font-size:3em;
+	margin: 0 auto;
+	text-align:center;
+	margin-top:20px;
+	background-color: #79DCF2;
+	font-family: 'Lobster', cursive;
+}
+.selectdiv{
+	width:50%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	text-align:center;
+}
+.demo select {
+		margin:0 auto;
+		border: 0 !important;  /*Removes border*/
+		-webkit-appearance: none;  /*Removes default chrome and safari style*/
+		-moz-appearance: none; /* Removes Default Firefox style*/
+		background: #0088cc;
+		width: 250px; /*Width of select dropdown to give space for arrow image*/
+		/*text-indent: 0.01px; /* Removes default arrow from firefox*/
+		/*text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+		color: #FFF;
+		/*border-radius: 15px;*/
+		padding: 5px;
+		height:50px;
+		font-size:20px;
+		/*box-shadow: inset 0 0 5px rgba(000,000,000, 0.5);*/
+	}
+.demo select.black {
+		background-color: #79DCF2;
+}
+.menulinks{
+	font-family: 'Lobster', cursive;
+}
+/*MOSTRANDO PLAYAS INDIVIDUALES*/
+.playa{/*Estilos para mostrar los datos de una playa concreta*/
+	width:90%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	margin-top:2%;
+}
+.beachind{
+    /*border: 1px solid black;*/
+    width: 99.5%;
+    height:auto;
+    background-color: #F9F9F9;
+    /*SOMBRA DE LA CAJA*/
+    /*-webkit-box-shadow: 10px 10px 16px 0px rgba(223,223,223,1);
+    -moz-box-shadow: 10px 10px 16px 0px rgba(223,223,223,1);
+    box-shadow: 10px 10px 16px 0px rgba(223,223,223,1);
+    /*BORDE REDONDEADO DE LA CAJA*/
+   /* -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;*/
+}
+.label{
+	color: #79DCF2;
+	font-family: 'Lobster', cursive;
+	font-size:2em;
+}
+/*******************************************************COMENTARIOS*****************************************************************/
+.comentarios{
+margin-top: 2%;
+width:90%;
+margin: 0 auto;
+}
+.mostrarComentario{
+width:50%;
+margin: 0 auto;
+border: 1px solid black;
+margin-bottom:0.50%;
+margin-top:0.75%
+}
+.comentario:nth-child(odd){
+background-color:#a8a8a8;
+}
+.media{
+width:50%;
+margin: 0 auto;
+text-align:center;
+font-family: 'Lobster', cursive;
+font-size:5em;
+}
+.login{
+width:30%;
+margin: 0 auto;
+text-align:center;
+font-family: 'Lobster', cursive;
+font-size:1em;
+margin-top:70px;
+}
+.login p{
+/*SOMBRA DE LA CAJA*/
+    -webkit-box-shadow: 10px 10px 16px 0px rgba(223,223,223,1);
+    -moz-box-shadow: 10px 10px 16px 0px rgba(223,223,223,1);
+    box-shadow: 10px 10px 16px 0px rgba(223,223,223,1);
+    /*BORDE REDONDEADO DE LA CAJA*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	
+}
+
+.login input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 98%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+.login input[type="text"]:focus {
+  outline: none;
+}
+
+.style-1 input[type="text"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.login input[type="text"]:focus,
+.login input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+.login input[type="password"] {
+  display: block;
+  margin: 0;
+  width: 98%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+.login input[type="password"]:focus {
+  outline: none;
+}
+
+.style-1 input[type="text"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.login input[type="password"]:focus,
+.login input[type="password"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+.grafico{
+margin: 0 auto;
+}
