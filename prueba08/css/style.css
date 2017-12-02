@@ -1,0 +1,25 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-family: 'Patua One', cursive;
+}
+
+form {
+    margin: 50px 0 50px 0;
+}
+
+nav {
+    padding: 20px;
+}
+
+h1 {
+    margin-left: 50px;
+}
+
+nav>a {
+    margin-left: 60%;
+}
+
+img {
+    margin: 0 auto !important;
+    width: 200px !important;
+}
