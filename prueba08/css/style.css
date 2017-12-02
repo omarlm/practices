@@ -11,15 +11,28 @@ nav {
     padding: 20px;
 }
 
-h1 {
-    margin-left: 50px;
+#img-tenerife {
+    width:50px;
+    height: 50px;
 }
 
-nav>a {
-    margin-left: 60%;
+#title{
+    text-align: center;
 }
 
-img {
-    margin: 0 auto !important;
-    width: 200px !important;
+#a-tenerife{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
+
+#a-tenerife:hover{
+    color: white;
+    text-decoration: none;    
+}
+
+.div-separe{
+    margin-top: 50px;
+}
+
+

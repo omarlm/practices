@@ -16,10 +16,10 @@
                 <?php while($row = $consultation->fetch()):?>
                             <div class="card">
                                 <?php if(($row['imagen'] == null) || (empty($row['imagen']))): $imagen = ""; ?>
-                                    <img class="card-img-top img-fluid" src="img/tenerife.jpg" alt="Sin foto"/>
+                                    <!--<img class="card-img-top img-fluid" src="img/tenerife.jpg" alt="Sin foto"/>-->
                                 <?php else:
                                     $imagen = base64_encode($row['imagen']);?>
-                                    <img class="card-img-top img-fluid center-block" src="data:image/jpeg;base64,<?=$imagen?>" alt="foto playa "/> 
+                                    <img class="card-img-top img-fluid center-block" style="width: 100%;"src="data:image/jpeg;base64,<?=$imagen?>" alt="foto playa "/> 
                                 <?php endif;?>   
                                 <div class="card-block">
                                     <h4 class="card-title"><?=$row['nombre']?></h4>

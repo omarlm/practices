@@ -3,9 +3,8 @@
 <html lang="en">
 <?php include_once('../templates/head.html') ?>
 <body>
-    <div class="container">
-        <?php include_once('../templates/nav.html') ?>
-
+<?php include_once('../templates/nav.html') ?>
+    <div class="container div-separe">
             <div class="container-fluid">
                  <div class="card">
                     <img class="card-img-top card-fluid" src="" alt="AQUÍ LA FOTO">
@@ -22,7 +21,7 @@
                         
                     </div>
                 </div>
-                <button type="button" class="btn btn-link"><a href="principal.php" class="btn btn-outline-primary">Volver...</a></button>
+                <button type="button" class="btn btn-link"><a href="principal.php" class="btn btn-outline-primary">Volver</a></button>
 
             </div><!--Fin contianer-fluid-->
     </div><!-- Fin container-->

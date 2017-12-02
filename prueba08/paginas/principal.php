@@ -6,11 +6,8 @@
 <html lang="es">
 <?php include_once('../templates/head.html') ?>
 <body>
+    <?php include_once('../templates/nav.html') ?>
     <div class="container"><!--Contenedor principal: englobal todo -->
-        <nav class="nav navbar-inverse bg-inverse">
-                <h1 class="text-white text-center">Playas de Tenerife</h1>
-                <a class="nav-link active" href="#" >Login</a>
-        </nav>
         <div class="container-fluid">
             <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
                 <label>Municipios: </label>

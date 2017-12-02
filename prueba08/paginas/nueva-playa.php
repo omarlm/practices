@@ -3,8 +3,8 @@
 <?php include_once('../templates/head.html') ?>
 
 <body>
-    <?php include_once('../templates/nav.html') ?>
-    <div class="container">
+<?php include_once('../templates/nav.html') ?>
+    <div class="container div-separe">
         <div class="container-fluid">
             <div class="col-12">
                  <!-- form user info -->
@@ -70,7 +70,7 @@
                         </form>
                     </div>
                 </div> <!-- /form user info -->
-                <button type="button" class="btn btn-link"><a href="principal.php" class="btn btn-outline-primary">Volver...</a></button>
+                <button type="button" class="btn btn-link"><a href="principal.php" class="btn btn-outline-primary">Volver</a></button>
             </div>
         </div><!--Fin container-fluid-->
     </div><!--Fin contianer-->
